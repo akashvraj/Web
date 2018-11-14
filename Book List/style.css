@@ -1,0 +1,66 @@
+.container{
+    width: 40%;
+    //border: 1px solid grey;
+    margin: 0px auto;
+    padding: 2%;
+}
+
+label{
+    display:block;
+    margin-top: 2%;
+    width:100%;
+    
+    //background-color: pink;
+}
+label input[type=text] {
+    padding: 5px;
+    width:100%;
+
+    //background-color: yellow;
+}
+
+input[type=submit]{
+    outline:none;
+    background-color: white;
+    color: black;
+    letter-spacing: 5px;
+    padding: 6px 30px;
+    margin-top: 2%;
+}
+
+table{
+    width:103%;
+    border: 1px solid grey;
+    //background-color: pink;
+    margin-top: 3%;
+}
+th{
+    width: 25%;
+    background-color: rgb(81, 197, 90);
+}
+td{
+    text-align:center;
+    //background-color: rgb(168, 219, 211);
+    bodred: 1px solid grey;
+}
+
+
+/* Created by JS*/
+.error{
+    background-color: crimson;
+    width: 103%;
+    text-align:center;
+}
+.success{
+    background-color: green;
+    width: 103%;
+    text-align:center;
+}
+
+#book-list tr:nth-child(even){
+	background-color: yellow;
+}
+
+#book-list tr:nth-child(odd){
+	background-color: rgb(168, 219, 211);
+}
