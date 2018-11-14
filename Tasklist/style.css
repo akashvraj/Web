@@ -1,0 +1,85 @@
+body{
+    background-color: teal;
+    background-image: url("images/poly5.jpg");
+    background-size: cover;
+}
+
+.main{
+    border: 5px solid black;
+    width:500px;
+    margin: 50px auto;
+    //background-color: limegreen;
+    box-shadow: 0px 0px 20px 2px lightblue;
+    
+}
+
+.card-outer{
+    //border: 1px solid green;
+    height: 90%;
+    
+    width: 90%;
+    margin: 5% auto;
+    
+    //background-color: crimson;
+}
+
+input[type=text] {
+    border:none;
+    border-bottom: 1px solid red;
+    background-color: #DCDCDC; // #3cbc8D;
+    width: 99%;
+    height: 25px;
+    padding: 1px;
+    margin: 0px 2px 0px 2px;
+}
+input[type=text]:focus {
+    outline: none;
+}
+
+#add-task{
+    border:none;
+    background-color: black;
+    color:white;
+    padding: 8px 20px;
+}
+
+.btn{
+    background-color: lightgreen;
+    padding: 8px 20px;
+    border: none;
+    font-weight: bold;
+}
+.button-center{
+    //border: 1px solid red;
+    margin: 0px auto;
+    width:108px;
+}
+
+
+.list{
+    //background-color: gray;
+    color: white;
+    list-style-type: decimal;
+   // display: table;
+
+    margin-bottom:5px;
+}
+
+.del{
+    background-color: red;
+    //outline:none;
+    border:none;
+    float:right;
+}
+
+
+#credit{
+    position:absolute;
+    top: 90%;
+    left: 85%;
+}
+
+/* .list::after{
+    display: block;
+    content: "";
+} */

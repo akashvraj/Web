@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tasklist</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body onload="refreshList()">
+    <div class="main">
+        <div class="card-outer">
+            <form name="input_task">
+                <h2 style="color:rgb(9, 255, 255)">Task List</h2>
+                <input type="text" value="" placeholder="New Task" name="new_task" />
+                <br /><br />
+                <input type="button" value="Add Task" id="add-task" name="add_task" />
+            </form>
+        <ul>
+            <!--<li>TAsk <button type="button" class="del">x</button></li>-->
+        </ul>
+
+        <div class="button-center">
+        <button type="button" class="btn" id="clear-tasks">Clear Task</button>
+        </div>
+    </div>
+    </div>
+
+    <p id=credit>Created by Akash Verma <br />v.akash75@yahoo.in</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
